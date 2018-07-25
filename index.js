@@ -23,7 +23,7 @@ var incorrect = clc.red.bold;
 var correct = clc.green.bold;
 
 // This variable is the pre-defined color for the text when the user is playing the game.
-var gameTextColor = clc.tan;
+var gameTextColor = clc.cyanBright;
 
 // This variable sets the variable to true for that letter when the user guesses correctly, whereas the default value of this variable is false.
 var userGuessedCorrectly = false;
@@ -52,7 +52,7 @@ var lettersAlreadyGuessedListArray = [];
 var blanksFilledIn = 0;
 
 // This function turnts the title Zachs Famous Character Hangman Game into a drawn image when the user enters the game.
-draw("Zach's Famous Character Hangman Game", function (error, data) {
+draw("Zach's Hangman", function (error, data) {
 	if (error) {
 		console.log('Thats Odd, Something Isnt Working Here...');
 		console.dir(error);
@@ -61,7 +61,7 @@ draw("Zach's Famous Character Hangman Game", function (error, data) {
 	console.log(data);
 
 	// This console log screen reveals the WELCOME SCREE TEXT that the user will see when typing node index.js in the root directory of the node.js app.
-	console.log(gameTextColor("Welcome to Zach's Famous Character Hangman Game!"));
+	console.log(gameTextColor("Welcome to Zach's Hangman!"));
 	console.log(gameTextColor("The Theme Is Famous People Who Are Born Or Spent Most Of Their Life In Pennsylvania."));
 
 	// This variable holds the game instructions on how to play the Zach's Famous Character Hangman Game.
@@ -95,7 +95,7 @@ function confirmStart() {
 		{
 			type: 'confirm',
 			name: 'readyToPlay',
-			message: 'Are YOU ready to play Zachs Famous Character Hangman Game?',
+			message: 'Are YOU ready to play Zachs Hangman Game?',
 			default: true
 		}
 	];
