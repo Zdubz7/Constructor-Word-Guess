@@ -2,11 +2,13 @@
 
 INSTALL ALL OF THESE NODE PACKAGES TO YOUR TERMINAL OR THE GAME WILL NOT RUN.
 
+npm install inquirer
+( THIS PACKAGE IS SUPER IMPORTANT, DON'T INSTALL IN WORD CONSTRUCTOR FOLDER, INSTALL THIS PACKAGE IN THE ROOT DIRECTORY OF ALL OF YOUR GITHUB PROJECTS. )
 
 npm init -y
 ( This Node Package Initializes The Package.Json. )
 
-npm install twitter
+npm i twitter
 ( This Node Package Is Used To Prompt Users For A Letter Throughout The Game. )
 
 npm install cli-color
@@ -21,11 +23,7 @@ npm install is-letter
 npm install boxen
 ( This Node Package Is Used To Create Boxes Within The Terminal. )
 
-
 THESE ARE THE COMMANDS TO RUN THE GAME WITHIN THE TERMINAL AFTER ALL PACKAGES ARE INSTALLED.
-
 
 node index.js
 ( This Command Prompts The Starting Of The Game. After You Are Prompted By The Game Press Any Letter A-Z To Start Playing. You Will Be Asked A List Of Questions In Which You Will Respond.)
-
-
